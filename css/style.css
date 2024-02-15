@@ -1,0 +1,184 @@
+/* <a href="https://pl.freepik.com/darmowe-zdjecie/tajemniczy-jesienny-las-oswietlony-upiornym-zachodem-slonca-wygenerowanym-przez-sztuczna-inteligencje_41219261.htm#page=2&query=anime%20tree&position=26&from_view=search&track=ais&uuid=bb474238-a650-42e6-8a85-f6f4c19655ee">Obraz autorstwa vecstock</a> na Freepik */
+/* umiescic to potem w stopce */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap');
+
+*{
+    margin: 0;  /* Reset default margin */
+    padding: 0; /* Reset default padding */
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+body{
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    min-height: 100vh; 
+    /* background-image: url('../img/vintage-crumpled-paper-textured-background.jpg'); */
+    /* background-color: #003366; */
+    background-color: #006699;
+    background-size: cover;  /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the background image */   
+    filter: blur(0.5px); /* Adjust the blur value as needed */
+    overflow-x: hidden;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* opacity: 80%; */
+    z-index: 99;
+}
+
+.logo{
+    font-size: 2em;
+    color: #fff;
+    user-select: none;
+}
+
+.navigation a{
+    position: relative;
+    font-size: 1.1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+    text-shadow: 2px 2px 2px black;
+}
+
+.navigation a::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover:after{
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup{
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px black;
+    box-shadow: 1px 1px 4px black;
+    margin-left: 40px;
+    transition: .5s;
+}
+
+.navigation .btnLogin-popup:hover{
+    background: #fff;
+    color: black;
+    text-shadow: 2px 2px 2px white;
+}
+
+/* .container{
+    position: fixed;
+    margin-top: 100px; 
+    width: 100%;  
+} */
+
+.container {
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
+    padding-top: 80px; 
+    padding-bottom: 20px; 
+    position: relative;
+    z-index: 1;
+  }
+
+/* .container {
+    white-space: nowrap; /* Prevent cards from wrapping to the next line
+    padding-top: 80px;
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+} */
+
+.footer {
+position: fixed;
+bottom: 0;
+left: 0;
+width: 100%;
+padding: 10px 0;
+background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+text-align: center;
+z-index: 99;
+}
+
+/* .row { */
+    /* position: fixed; */
+    /* display: flex; */
+    /* justify-content: center; Center the boxes */
+    /* align-items: center; */
+    /* white-space: nowrap; */
+    /* flex-wrap: wrap; Allow boxes to wrap to the next line */
+    /* z-index: 101; */
+    /* margin-top: 20px; Adjust as needed */
+/* } */
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-out; /* Add smooth transition */
+}
+
+.myCard {
+    /* flex: 0 0 calc(25% - 10px); Adjust as needed */
+    /* position: fixed; */
+    display: inline-block;
+    max-width: 120px;
+    height: 200px;
+    background: #fff;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 7px 1px black;
+    margin: 5px;
+    padding: 5px;
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, filter 0.3s;
+    /* margin: 0 5px 10px; Adjust as needed for spacing between and below cards */
+}
+
+.myCard a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-weight: 500;
+    text-shadow: 1px 1px 4px grey;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+.card-img {
+    width: 100%;
+    height: 82%;
+}
