@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login_style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <div id="info_card" class="hidden">
+        <div class="card-content">
+            <div id="name">
+                <!-- First and last name added by script -->
+            </div>
+            <!-- Carousel content goes here -->
+            <div class="carousel" id="carouselContainer">
+                <!-- Pictures added by script -->
+            </div>
+            <button class="prev" id="prevButton">&#10094;</button>
+            <button class="next" id="nextButton">&#10095;</button>
+ 
+        </div>
+        <div class="close-button-container" style="text-align: end; margin-top: 10px;">
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="contacts.html">Contact</a>
+            <button class="btnLogin-popup" id="loginBtn">Login</button>
+        </nav>    
+    </header>
+
+
+    <!-- Container -->
+    <div class="container" id="main_con">
+        <div class="wrapper">
+            <form action="">
+                <h1>Login</h1>
+                <div class="input-box">
+                    <input type="text" placeholder="First Name" required>
+                    <img src="img/icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt="" style="color: white;">
+                </div>
+                <div class="input-box">
+                    <input type="text" placeholder="Last Name" required>
+                    <img src="img/icons/person_FILL0_wght400_GRAD0_opsz24.svg" alt="" style="color: white;">
+                </div>
+                <div class="input-box">
+                    <input type="email" placeholder="Email" required>
+                    <img src="img/icons/mail_FILL0_wght400_GRAD0_opsz24.svg" alt="" style="color: white;">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Password" required>
+                    <img src="img/icons/lock_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <div class="input-box">
+                    <input type="password" placeholder="Confirm Password" required>
+                    <img src="img/icons/lock_FILL0_wght400_GRAD0_opsz24.svg" alt="">
+                </div>
+                <div class="agreements">
+                    <p>Zgody formalne</p>
+                    <label><input type="checkbox" >Akceptuję regulamin strony</label>
+                    <label><input type="checkbox">Zgoda na udostepnianie wizerunku</label>
+                </div>
+                <button type="button" class="btn">Register</button>
+            </form>
+        </div>
+        <!-- Your page content goes here -->
+        <!-- <h1>Welcome to Your Website</h1>
+        <p>This is the main content of your page.</p> -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- <p>&copy; 2023 Your Website. All rights reserved.</p> -->
+    </footer>
+    
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,192 @@
+{
+  
+    "1" : {
+        "fname": "Kazimierz",
+        "sname" : "Przybylski",
+        "secondName" : "n/a",
+        "birthDate": "24/09/1943",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/kazimierz_przybylski/IMG_0551_copy.JPG", 
+        "img/kazimierz_przybylski/IMG_0643_copy.JPG", "img/kazimierz_przybylski/IMG_0687_copy.JPG", 
+        "img/kazimierz_przybylski/IMG_0892_copy.JPG", "img/kazimierz_przybylski/IMG_1039_copy.JPG"]
+        },
+    "2" : {
+        "fname": "Zofia",
+        "sname" : "Przybylska",
+        "secondName" : "n/a",
+        "birthDate": "18/03/1935",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/zofia_przybylska/IMG_E0442.JPG", "img/zofia_przybylska/IMG_0694_copy.JPG",  "img/zofia_przybylska/IMG_0680_copy.JPG"]
+        },
+    "3" : {
+        "fname": "Adam",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "24/04/1985",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/adam_matusiak/20220914_215426.jpg", "img/adam_matusiak/IMG_0647_copy.jpg", "img/adam_matusiak/IMG_0876_copy.jpg",
+        "img/adam_matusiak/20210822_160006.jpg", "img/adam_matusiak/20220204_153503.jpg", "img/adam_matusiak/IMG_0647_copy.jpg",
+        "img/adam_matusiak/20220809_203455.jpg"]
+        },
+    "4" : {
+        "fname": "Aleksandra",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "21/04/1986",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/aleksandra_matusiak/IMG_0648_copy.jpg", "img/miroslawa_matusiak/IMG_1013_copy.JPG"]
+        },
+    "5" : {
+        "fname": "Jakub",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "03/11/1989",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/jakub_matusiak/IMG_1046_copy.JPG", "img/jakub_matusiak/IMG_0497.JPG", "img/jakub_matusiak/IMG_0605_copy.JPG"]
+        },
+    "6" : {
+        "fname": "Anna",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "11/07/1992",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/anna_matusiak/IMG_0049.jpg", "img/anna_matusiak/IMG_0684_copy.jpg"]
+        },
+    "7" : {
+        "fname": "Mirosława",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "03/04/1962",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/miroslawa_matusiak/IMG_0051.JPG", "img/miroslawa_matusiak/IMG_0600_copy.JPG", "img/miroslawa_matusiak/IMG_0608_copy.JPG",
+        "img/miroslawa_matusiak/IMG_1013_copy.JPG", "img/miroslawa_matusiak/IMG_1107_copy.JPG", "img/miroslawa_matusiak/IMG_1110_copy.JPG", "img/miroslawa_matusiak/IMG_1112_copy.JPG"]
+        },
+    "8" : {
+        "fname": "Stanisław",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "24/04/1985",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/stanislaw_matusiak/IMG_0047.JPG", "img/miroslawa_matusiak/IMG_0608_copy.JPG"]
+        },
+    "9" : {
+        "fname": "Kacper",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "03/04/2007",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/kacper_matusiak/20220809_205803.JPG", "img/kacper_matusiak/20210823_121452.JPG", "img/kacper_matusiak/20220403_142339.JPG",
+        "img/kacper_matusiak/20220702_172028.JPG", "img/nadia_oles/20210822_173126.JPG", "img/adam_matusiak/20220809_203455.jpg"]
+        },
+    "10" : {
+        "fname": "Wiktor",
+        "sname" : "Matusiak",
+        "secondName" : "n/a",
+        "birthDate": "23/01/2024",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "11" : {
+        "fname": "Anastazja",
+        "sname" : "Dziublewska",
+        "secondName" : "n/a",
+        "birthDate": "23/11/2023",
+        "city": "Redding",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "12" : {
+        "fname": "Sławek",
+        "sname" : "Dziublewski",
+        "secondName" : "n/a",
+        "birthDate": "23/01/2024",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/slawek_dziubilewski/IMG_0048.jpg", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "13" : {
+        "fname": "Aurora",
+        "sname" : "Pisarek",
+        "secondName" : "n/a",
+        "birthDate": "14/04/2020",
+        "city": "Redding",
+        "info" : "n/a",
+        "img" : ["img/aurora_pisarek/20220414_175627.JPG", "img/adam_matusiak/20220204_153503.jpg", "img/aurora_pisarek/20230126_183856_022.JPG"]
+        },
+    "14" : {
+        "fname": "Arystea",
+        "sname" : "Pisarek",
+        "secondName" : "n/a",
+        "birthDate": "23/05/2023",
+        "city": "Redding",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "15" : {
+        "fname": "Jarosław",
+        "sname" : "Pisarek",
+        "secondName" : "n/a",
+        "birthDate": "23/01/2024",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "16" : {
+        "fname": "Benita",
+        "sname" : "Łyżnik",
+        "secondName" : "n/a",
+        "birthDate": "23/01/2024",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/kazimierz_przybylski/IMG_E0440_copy.JPG", "img/zofia_przybylska/IMG_E0442.JPG", "img/dariusz_przybylski/IMG_E0445.JPG"]
+        },
+    "17" : {
+        "fname": "Dominika",
+        "sname" : "Janulewska",
+        "secondName" : "n/a",
+        "birthDate": "13/11/1988",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/dominika_janulewska/20211113_172832.JPG", "img/adam_matusiak/20210822_160006.jpg", "img/dominika_janulewska/20210822_203152.JPG",
+             "img/dominika_janulewska/20220809_113003.JPG", "img/dominika_janulewska/20211113_172835.JPG"]
+        },
+    "18" : {
+        "fname": "Nadia",
+        "sname" : "Oleś",
+        "secondName" : "n/a",
+        "birthDate": "13/11/2009",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/nadia_oles/20210822_173126_copy.JPG", "img/dominika_janulewska/20211113_172835.JPG", "img/nadia_oles/20210822_173126.JPG"]
+        },
+    "19" : {
+        "fname": "Dariusz",
+        "sname" : "Przybylski",
+        "secondName" : "n/a",
+        "birthDate": "27/06/1964",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/dariusz_przybylski/IMG_E0445.JPG", "img/dariusz_przybylski/IMG_0636_copy.JPG", "img/dariusz_przybylski/IMG_0695_copy.JPG",
+        "img/dariusz_przybylski/IMG_0986_copy.JPG", "img/dariusz_przybylski/IMG_1033_copy.JPG", "img/dariusz_przybylski/IMG_1108_copy.JPG"]
+        },
+    "20" : {
+        "fname": "Krystyna",
+        "sname" : "Przybylska",
+        "secondName" : "n/a",
+        "birthDate": "16/03/2024",
+        "city": "Łódź",
+        "info" : "n/a",
+        "img" : ["img/krystyna_przybylska/przybylska_krystyna.png", "img/dariusz_przybylski/IMG_0986_copy.JPG"]
+        }
+
+}

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family Tree</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login_style.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+
+    <style>
+        body{
+            align-items: flex-start;
+        }
+
+        .contacts_myCard{
+            display: inline-block;
+            width: 300px;
+            height: 300px;
+            background: #fff;
+            text-align: center;
+            border-radius: 5px;
+            box-shadow: 1px 1px 7px 1px black;
+            margin: 15px;
+            padding: 50px;
+            position: relative;
+            overflow: hidden;
+            transition: transform 0.3s, filter 0.3s;
+        }
+        #con{
+            color: #fff;
+            font-size: 20px;
+            padding: 2px;
+        }
+    </style>
+
+    <div id="info_card" class="hidden">
+        <div class="card-content">
+            <div id="name">
+                <!-- First and last name added by script -->
+            </div>
+            <!-- Carousel content goes here -->
+            <div class="carousel" id="carouselContainer">
+                <!-- Pictures added by script -->
+            </div>
+            <button class="prev" id="prevButton">&#10094;</button>
+            <button class="next" id="nextButton">&#10095;</button>
+ 
+        </div>
+        <div class="close-button-container" style="text-align: end; margin-top: 10px;">
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <h2 class="logo">Logo</h2>
+        <nav class="navigation">
+            <a href="index.html">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="contacts.html">Contact</a>
+            <button class="btnLogin-popup" id="loginBtn">Login</button>
+        </nav>    
+    </header>
+
+
+    <!-- Container -->
+    <div class="container" id="main_con">
+        <div class="row" style="margin-top: 120px;">
+            <div class="contacts_myCard">
+                <a href="https://www.facebook.com/adam.matusiak.184/" target="_blank"><img src="img/icons/fb_icon.svg" alt=""></a>    
+            </div>
+            <div class="contacts_myCard">
+                <img src="img/icons/gmail_icon.svg" alt="">         
+            </div>
+            <div class="contacts_myCard">
+                <img src="img/icons/fb_icon.svg" alt="">         
+            </div>
+        </div>
+        <div class="row" style="display: block; justify-content: center; align-items: center; margin-top: 120px; text-align: center;">
+            <div style="margin-bottom: 20px; color: #fff; text-shadow: 2px 2px 4px black;"><h1>Kontakt:</h1></div>
+            <div id="con"><p>Adam Matusiak f09a</p></div>
+            <div id="con"><p>Telefon: 999999</p></div>
+            <div id="con"><p>Email: adam@wp.pl</p></div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- <p>&copy; 2023 Your Website. All rights reserved.</p> -->
+    </footer>
+    
+</body>
+</html>

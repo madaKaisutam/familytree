@@ -6,39 +6,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Family Tree</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/login_style.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
+
+    <div id="info_card" class="hidden">
+        <div class="card-content">
+            <div id="name">
+                <!-- First and last name added by script -->
+            </div>
+            <!-- Carousel content goes here -->
+            <div class="carousel" id="carouselContainer">
+                <!-- Pictures added by script -->
+            </div>
+            <button class="prev" id="prevButton">&#10094;</button>
+            <button class="next" id="nextButton">&#10095;</button>
+ 
+        </div>
+        <div class="close-button-container" style="text-align: end; margin-top: 10px;">
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
 
     <!-- Navigation -->
     <header>
         <h2 class="logo">Logo</h2>
         <nav class="navigation">
-            <a href="#">Home</a>
+            <a href="index.html">Home</a>
             <a href="#">About</a>
             <a href="#">Services</a>
-            <a href="#">Contact</a>
-            <button class="btnLogin-popup">Login</button>
+            <a href="contacts.html">Contact</a>
+            <button class="btnLogin-popup" id="loginBtn">Login</button>
         </nav>    
     </header>
 
 
     <!-- Container -->
-    <div class="container">
+    <div class="container" id="main_con">
         <div class="row" style="margin-top: 120px;">
             <div class="myCard">
-                <a href="">
                     <img src="img/kazimierz_przybylski/IMG_E0440_copy.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="1">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom" id="btn_toSMT_top_kaz">Button 2</button>
+                    </div>
                     <p>Kazimierz</p>
                     <p>Przybylski</p>
-                </a>
                 
             </div>
             <div class="myCard">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="2">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Zofia</p>
                     <p>Przybylska</p>
-                </a>
             </div>
         </div>
         <div class="row">
@@ -50,38 +74,47 @@
             </div>
         </div>
         <div class="row">
+
+            <div class="myCard">
+                <img src="img/dariusz_przybylski/IMG_E0445.JPG" alt="" class="card-img">
+                <div class="card-buttons">
+                    <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="19">Button 1</button>
+                    <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                </div>
+                <p>Dariusz</p>
+                <p>Przybylski</p>
             
-            <div class="myCard" >
-                <a href="">
+            </div>
+            
+            <div class="myCard" style="margin-right: 350px;">
                     <img src="img/krystyna_przybylska/przybylska_krystyna.png" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="20">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Krystyna</p>
                     <p>Przybylska</p>
-                </a>
                 
             </div>
-            <div class="myCard" style="margin-right: 350px;">
-                <a href="">
-                    <img src="img/dariusz_przybylski/IMG_E0445.JPG" alt="" class="card-img">
-                    <p>Dariusz</p>
-                    <p>Przybylski</p>
-                </a>
-                
-            </div>
-            
+
             <div class="myCard">
-                <a href="">
+                <img src="img/stanislaw_matusiak/IMG_0047.JPG" alt="" class="card-img">
+                <div class="card-buttons">
+                    <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="8">Button 1</button>
+                    <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                </div>
+                <p>Stanisław</p>
+                <p>Matusiak</p>
+            
+            </div>
+            <div class="myCard">
                     <img src="img/miroslawa_matusiak/IMG_0051.JPG" alt="" class="card-img" width="100%" height="82%%">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="7">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Mirosława</p>
                     <p>Matusiak</p>
-                </a>
-                
-            </div>
-            <div class="myCard">
-                <a href="">
-                    <img src="img/stanislaw_matusiak/IMG_0047.JPG" alt="" class="card-img">
-                    <p>Stanisław</p>
-                    <p>Matusiak</p>
-                </a>
                 
             </div>
         </div>
@@ -92,70 +125,80 @@
         </div>
         <div class="row">
             <div class="myCard">
-                <a href="">
-                    <img src="img/kazimierz_przybylski/IMG_E0440_copy.JPG" alt="" class="card-img">
+                    <img src="img/adam_matusiak/20220914_215426.jpg" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="3">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Adam</p>
                     <p>Matusiak</p>
-                </a>
                 
             </div>
             <div class="myCard"  style="margin-right: 70px;">
-                <a href="">
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <img src="img/dominika_janulewska/20211113_172832.jpg" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="17">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Dominika</p>
                     <p>Janulewska</p>
-                </a>
             </div>
             <div class="myCard">
-                <a href="">
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+          
+                <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                <div class="card-buttons">
+                    <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="10">Button 1</button>
+                    <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                </div>
+                <p>Jarosław</p>
+                <p>Pisarek</p>
+            
+            </div>
+            <div class="myCard" style="margin-right: 70px;">
+                    <img src="img/aleksandra_matusiak/IMG_0648_copy.jpg" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="4">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Aleksandra</p>
                     <p>Matusiak</p>
-                </a>
-            </div>
-            <div class="myCard"  style="margin-right: 70px;">
-          
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
-                    <div class="card-buttons">
-                        <a href=""><button class="btn_toSMT">Button 1</button></a>
-                        <a href=""><button class="btn_toSMT">Button 2</button></a>
-                    </div>
-                    <p>Jarosław</p>
-                    <p>Pisarek</p>
-                
             </div>
             <div class="myCard">
-                <a href="">
-                    <img src="img/kazimierz_przybylski/IMG_E0440_copy.JPG" alt="" class="card-img">
+                    <img src="img/jakub_matusiak/IMG_1046_copy.JPG" alt="" class="card-img">
                     <div class="card-buttons">
-                        <button class="btn_toSMT">Button 1</button>
-                        <button class="btn_toSMT">Button 2</button>
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="5">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
                     </div>
                     <p>Jakub</p>
                     <p>Matusiak</p>
-                </a>
                 
             </div>
             <div class="myCard"  style="margin-right: 70px;">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="12">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Benita</p>
                     <p>Łyżyk</p>
-                </a>
             </div>
             <div class="myCard">
-                <a href="">
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <img src="img/anna_matusiak/IMG_0049.jpg" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="6">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Anna</p>
                     <p>Matusiak</p>
-                </a>
             </div>
             <div class="myCard">
-                <a href="">
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <img src="img/slawek_dziubilewski/IMG_0048.jpg" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="12">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Sławomir</p>
                     <p>Dziubilewski</p>
-                </a>
             </div>
         </div>
         <div class="row">
@@ -163,7 +206,7 @@
                 <img src="img/arrow4-svgrepo-com.svg" alt="" style="rotate: -50deg;">
             </div>
             <div style="margin-left: 200px;">
-                <img src="img/arrow4-svgrepo-com.svg" alt="" style="rotate: -80deg;">
+                <img src="img/arrow4-svgrepo-com.svg" alt="" style="rotate: -120deg;">
             </div>
             <div style="margin-left: 200px;">
                 <img src="img/arrow2-svgrepo-com.svg" alt="" style="rotate: 250deg;">
@@ -174,47 +217,67 @@
         </div>
         <div class="row">
             <div class="myCard">
-                <a href="">
-                    <img src="img/kazimierz_przybylski/IMG_E0440_copy.JPG" alt="" class="card-img">
+                    <img src="img/kacper_matusiak/20220809_205803.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="9">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Kacper</p>
                     <p>Matusiak</p>
-                </a>
-                
+            </div>
+            <div class="myCard">
+                    <img src="img/nadia_oles/20210822_173126_copy.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="18">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
+                    <p>Nadia</p>
+                    <p>Oleś</p>
             </div>
             <div class="myCard"  style="margin-right: 150px;">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="17">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Wiktor</p>
                     <p>Matusiak</p>
-                </a>
             </div>
             <div class="myCard">
-                <a href="">
-                    <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <img src="img/aurora_pisarek/20220414_175627.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="13">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Aurora</p>
                     <p>Pisarek</p>
-                </a>
             </div>
             <div class="myCard"  style="margin-right: 200px;">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="19">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Arystea</p>
                     <p>Pisarek</p>
-                </a>
             </div>
             <div class="myCard"  style="margin-right: 300px;">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="20">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Igor</p>
                     <p>Matusiak</p>
-                </a>
             </div>
             <div class="myCard">
-                <a href="">
                     <img src="img/zofia_przybylska/IMG_E0442.JPG" alt="" class="card-img">
+                    <div class="card-buttons">
+                        <button type="button" class="btn_toSMT_top_class" id="btn_toSMT_top" data-value="21">Button 1</button>
+                        <button type="button" class="btn_toSMT_bottom">Button 2</button>
+                    </div>
                     <p>Anastazja</p>
                     <p>Dziubilewska</p>
-                </a>
             </div>
         </div>
         <!-- Your page content goes here -->
